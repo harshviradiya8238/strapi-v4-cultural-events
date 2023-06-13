@@ -193,7 +193,6 @@ const EditEvent = () => {
             ) : null}
           </Box>
           <Box padding={2} hasRadius style={{ cursor: "pointer" }}>
-            {state?.time?.toString()}
             <DateTimePicker
               label="Date and Time"
               locale="en-GB"

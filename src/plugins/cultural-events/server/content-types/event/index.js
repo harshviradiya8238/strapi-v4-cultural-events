@@ -1,2 +1,2 @@
-const schema = require("./schema.json");
-module.exports = { schema };
+const event = require("./schema.json");
+module.exports = { event };

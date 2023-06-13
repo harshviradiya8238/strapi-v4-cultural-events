@@ -1,18 +1,41 @@
 {
-  "kind": "collectionType",
-  "collectionName": "events",
-  "info": {
-    "singularName": "event",
-    "pluralName": "events",
-    "displayName": "Event"
-  },
-  "options": {
-    "draftAndPublish": false,
-    "comment": ""
-  },
-  "attributes": {
-    "name": {
-      "type": "string"
+  "schema": {
+    "kind": "collectionType",
+    "collectionName": "events",
+    "info": {
+      "singularName": "event",
+      "pluralName": "events",
+      "displayName": "Event"
+    },
+    "options": {
+      "draftAndPublish": false,
+      "comment": ""
+    },
+    "attributes": {
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "time": {
+        "type": "string"
+      },
+      "venue": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string"
+      },
+      "ticketPrice": {
+        "type": "string"
+      },
+      "capacity": {
+        "type": "string"
+      },
+      "recurrence": {
+        "type": "string"
+      }
     }
   }
 }
